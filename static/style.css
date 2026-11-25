@@ -1,0 +1,37 @@
+.kokosivu {
+    width: 100%;
+    margin: auto;
+}
+
+html {
+    font-family: Verdana;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    padding: 1rem;
+    text-align: center;
+}
+
+#kirjautuminen {
+    display: flex;
+    margin-right: auto;
+}
+
+#kuvitus {
+    align-content: center;
+    padding: 2rem;
+}
+
+#ohjeteksti {
+    text-align: center;
+    padding: 2rem;
+}
+
+#toiminnot {
+    align-items: center;
+    padding: 2rem;
+}
