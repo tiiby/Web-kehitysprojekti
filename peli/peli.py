@@ -1,6 +1,6 @@
-from static.peli.pelaaja import Pelaaja
-from static.peli.huoneet import Huone
-from static.peli.karhu import Karhu
+from pelaaja import Pelaaja
+from huoneet import Huone
+from karhu import Karhu
 import json
 import os
 
