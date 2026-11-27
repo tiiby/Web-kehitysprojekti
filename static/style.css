@@ -15,15 +15,29 @@ header {
     padding: 1rem;
     text-align: center;
 }
+form {
+    padding: 1rem;
+}
 
 #kirjautuminen {
     display: flex;
-    margin-right: auto;
 }
 
-button {
+
+#aloitanappi {
     display: block;
+    margin: 1rem;
+    margin-left: 2.90rem;
 }
+
+#metsa {
+    display: inline;
+}
+
+#tallenna {
+    display: inline;
+}
+
 
 #kuvitus {
     padding: 2rem;
@@ -35,6 +49,8 @@ button {
 }
 
 #toiminnot {
-    align-items: center;
+    display: flex;
+    justify-content: center;
     padding: 2rem;
+    gap: 2rem;
 }

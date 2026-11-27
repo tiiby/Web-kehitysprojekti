@@ -1,6 +1,6 @@
-from pelaaja import Pelaaja
-from huoneet import Huone
-from karhu import Karhu
+from static.peli.pelaaja import Pelaaja
+from static.peli.huoneet import Huone
+from static.peli.karhu import Karhu
 import json
 import os
 
@@ -65,6 +65,12 @@ def status():
     if len(pelaaja.nykyinen_huone.huoneen_esine) > 0:
         print(f"Näet {pelaaja.nykyinen_huone.huoneen_esine}")
     print("*****************")
+
+def ika_tarkistus(pelaajanika):
+    if pelaajanika >= 12:
+        return True
+    else:
+        return False
 
 
 # Globaalit muuttujat
