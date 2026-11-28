@@ -30,12 +30,8 @@ form {
     margin-left: 2.90rem;
 }
 
-#metsa {
-    display: inline;
-}
-
-#tallenna {
-    display: inline;
+.valintanappi {
+    padding: 1rem;
 }
 
 
